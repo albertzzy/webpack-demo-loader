@@ -1,0 +1,20 @@
+<template>
+	<div class="title">sss</div>
+
+</template>
+
+<style>
+	.title{
+		background:yellow;
+	}
+
+</style>
+
+<script type="text/javascript">
+	document.querySelector('.title').addEventListener('click',function(){
+		alert(this.textContent);
+	})
+
+
+
+</script>
